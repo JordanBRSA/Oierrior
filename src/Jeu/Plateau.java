@@ -1,5 +1,7 @@
 package Jeu;
 
+import Jeu.caseJeu.Case;
+
 public class Plateau {
 
     private static final int NB_CASES = 63;

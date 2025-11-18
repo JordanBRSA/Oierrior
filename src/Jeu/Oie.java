@@ -1,5 +1,7 @@
 package Jeu;
 
+import Jeu.caseJeu.Case;
+
 public class Oie {
 
     private Couleur couleur;

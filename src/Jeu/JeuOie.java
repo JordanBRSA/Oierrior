@@ -11,9 +11,9 @@ public class JeuOie {
         oies = new Oie[nbOieMax];
     }
 
-    public void ajouterOie(String couleur) {
+    public void ajouterOie(Couleur couleur) {
         if (nbOie < oies.length) {
-            oies[nbOie] = new Oie(couleur, plateau, des);
+            oies[nbOie] = new Oie(couleur, plateau, de);
             nbOie++;
         } else {
             // TODO else ajouter oie

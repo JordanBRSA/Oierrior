@@ -6,12 +6,13 @@ public class Plateau {
     private final Case[] cases;
 
     public Plateau() {
-
         cases = new Case[NB_CASES];
-        for (int i = 0; i <= NB_CASES; i++) {
-
+        for (int i = 0; i < NB_CASES; i++) {
             cases[i] = new Case(i);
         }
+    }
 
+    public Case caseDebutPartie() {
+        return cases[0];
     }
 }

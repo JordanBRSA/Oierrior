@@ -8,5 +8,9 @@ public abstract class Piege extends Case {
     public Piege(int numCase) {
         super(numCase);
     }
-    public abstract void bloquer(Oie uneOie, int nbTour);
+
+    public void bloquer(Oie uneOie){
+        uneOie.setAction(false);
+
+    };
 }

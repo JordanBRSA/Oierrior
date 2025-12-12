@@ -17,4 +17,8 @@ public class Plateau {
     public Case caseDebutPartie() {
         return cases[0];
     }
+
+    public Case donnerCase(int numCase){
+        return cases[numCase];
+    }
 }

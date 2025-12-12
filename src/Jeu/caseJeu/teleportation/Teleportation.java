@@ -7,5 +7,5 @@ public abstract class Teleportation extends Case {
     public Teleportation(int  numCase) {
         super(numCase);
     }
-    public abstract void seTeleporter(Case prochaineCase);
+    public abstract void seTeleporter(int prochaineCase);
 }

@@ -2,9 +2,9 @@ package Jeu.caseJeu.piege;
 
 import Jeu.Oie;
 
-public class Prison {
+public class Prison extends Piege{
 
-    public void bloquer(Oie uneOie, int nbTour) {
-
+    public Prison(int numCase) {
+        super(numCase);
     }
 }

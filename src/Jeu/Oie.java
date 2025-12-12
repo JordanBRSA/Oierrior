@@ -9,6 +9,7 @@ public class Oie {
     private De de;
     private Case casePlateau;
     private Journal journal;
+    private boolean action;
 
     public Oie(Couleur couleur,Plateau plateau,De de) {
         this.couleur = couleur;
@@ -17,7 +18,15 @@ public class Oie {
     }
 
     public boolean action(){
-        return true;
+        return action;
+    }
+
+    public void setAction(boolean action){
+        this.action = action;
+    }
+
+    public void setCasePlateau(Case casePlateau){
+        this.casePlateau = casePlateau;
     }
 
     public int lancerDe(){
@@ -26,5 +35,9 @@ public class Oie {
 
     public void ajouterMessage(String message){
         journal.ajouterMessage(message);
+    }
+
+    public Plateau getPlateau() {
+        return plateau;
     }
 }

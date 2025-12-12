@@ -1,4 +1,11 @@
 package Jeu.caseJeu.piege;
 
-public class Puit {
+import Jeu.Oie;
+import Jeu.caseJeu.Case;
+
+public class Puit extends Case {
+    public Puit(int numCase) {
+        super(numCase);
+    }
 }
+
